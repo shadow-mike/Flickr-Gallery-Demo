@@ -1,0 +1,77 @@
+/*布局选项条*/
+.layout-bar{
+	/*width: 100%;*/
+	/*position: fixed;*/
+	margin: auto;
+	
+}
+.layout-bar ul{
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.layout-bar ul li{
+	display: inline;
+	margin: auto;
+	cursor: pointer;
+}
+.layout-bar ul li div.button{
+	opacity: 0.4;
+}
+.layout-bar ul li div.button-grid{
+	margin-left: 1em;
+
+	width: 1.25em;
+	height: 1.25em;
+	position: relative;
+	
+}
+.transparent{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1.25em;
+	height: 1.25em;
+	z-index: 2;
+}
+.tl{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: .5em;
+	height: .5em;
+	background-color: black;
+	z-index: 1;
+}.tr{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: .5em;
+	height: .5em;
+	background-color: black;
+	z-index: 1;
+}.bl{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: .5em;
+	height: .5em;
+	background-color: black;
+	z-index: 1;
+}.br{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: .5em;
+	height: .5em;
+	background-color: black;
+	z-index: 1;
+}
+.layout-bar ul li div.button-row{
+	width: 1.25em;
+	height: .25em;
+	border-width: .5em 0 .5em 0;
+	border-style: solid;
+	border-color: black;
+}

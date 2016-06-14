@@ -1,0 +1,13 @@
+/*画廊容器*/
+.gallery-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.gallery-container ul{
+	list-style: none;
+	padding: 0;
+}
+.gallery-container .layout-bar,.picture-list{
+	margin: auto;
+}
