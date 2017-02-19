@@ -1,14 +1,19 @@
 {
-  "name": "fg",
+  "name": "flickr-gallery-demo",
   "version": "1.0.0",
   "private": true,
   "description": "",
-  "main": "server.js",
   "scripts": {
     "start": "webpack-dev-server --hot --inline --progress --colors"
   },
-  "author": "zf",
+  "author": "shadow",
   "license": "ISC",
+  "dependencies": {
+    "jquery-lazyload": "^1.9.7",
+    "lightcase": "^2.3.4",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  },
   "devDependencies": {
     "babel-core": "^6.9.1",
     "babel-loader": "^6.2.4",
@@ -16,11 +21,7 @@
     "babel-preset-react": "^6.5.0",
     "css-loader": "^0.23.1",
     "file-loader": "^0.8.5",
-    "jquery-lazyload": "^1.9.7",
     "jsx-loader": "^0.13.2",
-    "lightcase": "^2.3.4",
-    "react": "^15.1.0",
-    "react-dom": "^15.1.0",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
     "webpack": "^1.13.1",

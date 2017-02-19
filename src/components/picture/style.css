@@ -1,19 +1,18 @@
 /*图片行显示样式*/
-.layout-row{
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+.layout-row {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 /*图片格子显示样式*/
-.layout-grid{
-	flex-direction: row;
-	flex-wrap: wrap;
-	/*flex:1 0 auto;*/
-	align-items: center;
-	justify-content: center;
-	/*align-content: center;*/
+.layout-grid {
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*flex:1 0 auto;*/
+    align-items: center;
+    justify-content: center;
+    /*align-content: center;*/
 }
-
-.selected{
-	opacity: 1 !important;
+.selected {
+    opacity: 1 !important;
 }
