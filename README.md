@@ -28,6 +28,7 @@ $ git clone git@github.com:shadow512122313/Flickr-Gallery-Demo.git
 $ cd Flickr-Gallery-Demo
 $ npm install
 $ npm start
+浏览地址 http://localhost:8080
 ```
 
 2017.02.19
